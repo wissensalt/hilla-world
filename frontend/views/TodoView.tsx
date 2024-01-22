@@ -37,7 +37,7 @@ export default function TodoView() {
     }
   }
 
-  return <div className="p-m">
+  return <div style={{alignItems: 'center'}}>
     <HorizontalLayout theme="margin">
       <h2>Hilla Todo Application</h2>
     </HorizontalLayout>
